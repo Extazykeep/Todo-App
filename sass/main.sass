@@ -1,0 +1,66 @@
+body
+	background-color: #a9a9a9
+	font-size: 2em
+	max-height: 100vh
+.wrapper
+	text-align: center
+	width: 25%
+	margin: 50px auto
+	background-color: #fff
+	border-radius: 20px	
+.header
+	background-image: url("../img/background.jpeg")
+	background-size: 100% 100%
+	height: 200px
+	border-radius: 20px 20px 0px 0px
+	color: white
+	position: relative
+	#date
+		position: absolute
+		bottom: 20px
+		left: 20px		
+	.clear
+		position: absolute
+		top: 20px
+		right: 20px
+		transition: all 0.7s ease
+		i			
+		&:hover
+			transform: rotate(90deg)
+.content 
+	padding: 15px
+	min-height: 300px
+.todo-list
+	list-style-type: none	
+	padding: 0px
+	margin: 0px			
+	.item
+		display: flex 
+		align-items: center
+		p
+			margin: 0px	15px
+			max-width: 275px
+			white-space: pre-line							
+		.fa-trash
+			margin-left: auto			
+.add-todo
+	padding-bottom: 20px	
+	input
+		width: 63%
+		height: 50px
+		border-radius: 10px		
+		outline-color: #0BA8B2
+		text-align: center
+	button
+		padding: 10px 25px
+		margin-left: 10px
+		border-radius: 5px
+		background-color: #0BA8B2
+		border: 2px solid #a7a8a7
+		box-shadow: 2px 2px #a7a8a7
+.lined
+	text-decoration: line-through
+	color: grey
+
+.fa-check-circle
+	color: green
